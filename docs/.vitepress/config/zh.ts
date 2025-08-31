@@ -3,7 +3,6 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 export const zh = defineConfig({
   lang: 'zh-CN',
   description: 'FDUer 计算机知识体系',
-  base: '/freshdan-cs/',
 
   themeConfig: {
     nav: nav(),

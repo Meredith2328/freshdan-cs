@@ -14,6 +14,7 @@ import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-i
 import { transformerTwoslash } from '@shikijs/vitepress-twoslash';
 
 export const shared = defineConfig({
+  base: '/freshdan-cs/',
   title: 'CS101',
   lastUpdated: true,
   cleanUrls: true,
