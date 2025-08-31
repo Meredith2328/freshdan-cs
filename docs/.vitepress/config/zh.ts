@@ -2,7 +2,8 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 
 export const zh = defineConfig({
   lang: 'zh-CN',
-  description: 'FDUer 计算机入门指南',
+  description: 'FDUer 计算机知识体系',
+  base: '/freshdan-cs/',
 
   themeConfig: {
     nav: nav(),
@@ -10,7 +11,7 @@ export const zh = defineConfig({
     sidebar: sidebarGuide(),
 
     editLink: {
-      pattern: 'https://github.com/FDUCSLG/CS101/edit/main/docs/:path',
+      pattern: 'https://github.com/Meredith2328/freshdan-cs/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页面'
     },
 
